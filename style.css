@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+    margin: 0 50px;
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+}
+
+#posts {
+    width: 450px;
+}
+
+#posts div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.options {
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    background-color: rgb(25, 152, 194);
+    color: white;
+    border: 1px solid darkblue;
+    border-radius: 3px;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
+
+.edit:hover {
+    background-color: lightblue;
+    color: black;
+}
+
+.delete:hover {
+    background-color: rgb(214, 35, 35);
+    color: white;
+}
+
+#msg {
+    color: red;
+}
